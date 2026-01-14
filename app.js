@@ -1394,9 +1394,11 @@ function removeAllMenus() {
           }
         }
       } else {
-        landing.style.display = 'flex';
-        dashboard.style.display = 'none';
-        if (userInfo) userInfo.style.display = 'none';
+        if (landing) {
+          landing.style.display = 'flex';
+          dashboard.style.display = 'none';
+          if (userInfo) userInfo.style.display = 'none';
+        }
       }
     }
 
