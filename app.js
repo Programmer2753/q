@@ -361,13 +361,194 @@ const i18n = {
     },
 
     languageChanged: "Мову змінено на українську"
+  },
+
+  ru: {
+    login: "Войти",
+    logout: "Выйти",
+    divider: "или",
+    getStarted: "Начать бесплатно",
+    welcomeBack: name => `Привет, ${name}! Рад снова тебя видеть.`,
+    loginTitle: "Вход",
+    registerTitle: "Создать аккаунт",
+    resetTitle: "Сброс пароля",
+
+    email: "EMAIL",
+    password: "ПАРОЛЬ",
+    confirmPassword: "ПОДТВЕРДИТЕ ПАРОЛЬ",
+
+    continueGoogle: "Продолжить с Google",
+    forgotPassword: "Забыли пароль?",
+    noAccount: "Нет аккаунта?",
+    createAccount: "Создать аккаунт",
+    haveAccount: "Уже есть аккаунт?",
+    resetPassword: "Сбросить пароль",
+    cancelReset: "Отмена",
+
+    heroTitle: "Превращайте идеи в реальность",
+    heroSubtitle:
+      "Планировщик помогает организовать работу, управлять проектами и сотрудничать с командой.",
+
+    footerTitle: "Начните с простого.\nСоздайте первую задачу.",
+    exploreTemplates: "Посмотреть все шаблоны",
+
+    products: "Продукты",
+    solutions: "Решения",
+    community: "Сообщество",
+    resources: "Ресурсы",
+    about: "О нас",
+
+    notifications: {
+      fillAll: "Пожалуйста, заполните все поля",
+      passwordsMismatch: "Пароли не совпадают",
+      userExists: "Пользователь с таким email уже существует",
+      registerSuccess: name => `Регистрация прошла успешно! Привет, ${name}!`,
+      loginError: "Неверный email или пароль",
+      loginSuccess: name => `Вход выполнен успешно! Привет, ${name}!`,
+      loggedOut: "Вы вышли из аккаунта",
+      resetSent: "Письмо для сброса пароля отправлено"
+    },
+
+    profile: {
+      title: "Мой профиль",
+      nameLabel: "Имя профиля",
+      namePlaceholder: "Введите имя",
+      registrationDate: "Дата регистрации",
+      language: "Язык интерфейса",
+      saveChanges: "Сохранить изменения",
+      profileUpdated: "Профиль обновлён!",
+      enterName: "Введите имя профиля",
+      totalTasks: "Всего задач",
+      completed: "Завершено",
+      productivity: "Продуктивность",
+      myProfile: "Мой профиль",
+      ukrainian: "Украинский",
+      english: "Английский",
+      russian: "Русский"
+    },
+
+    menu: {
+      myProfile: "Мой профиль",
+      logout: "Выйти"
+    },
+
+    views: {
+      list: "Список",
+      calendar: "Календарь",
+      dashboard: "Дашборд"
+    },
+
+    table: {
+      name: "Название",
+      dueDate: "Срок",
+      priority: "Приоритет",
+      status: "Статус",
+      comments: "Комментарии",
+      addTask: "Добавить задачу"
+    },
+
+    priorities: {
+      urgent: "Срочно",
+      high: "Высокий",
+      normal: "Обычный",
+      low: "Низкий",
+      clear: "Очистить"
+    },
+
+    statuses: {
+      done: "ГОТОВО",
+      inProgress: "В ПРОЦЕССЕ",
+      todo: "К СДЕЛАТЬ"
+    },
+
+    taskActions: {
+      rename: "Переименовать",
+      duplicate: "Дублировать",
+      delete: "Удалить",
+      taskType: "Тип задачи",
+      save: "Сохранить",
+      cancel: "Отмена"
+    },
+
+    dashboard: {
+      title: "Обзор дашборда",
+      subtitle: "Обзор ваших проектов и задач",
+      totalTasks: "Всего задач",
+      inProgress: "В процессе",
+      completed: "Завершено",
+      productivity: "Продуктивность",
+      progressTitle: "Прогресс задач",
+      prioritiesTitle: "Приоритеты",
+      recentTitle: "Последние задачи",
+      todoStatus: "К СДЕЛАТЬ",
+      inProgressStatus: "В ПРОЦЕССЕ",
+      doneStatus: "ГОТОВО",
+      noTasksYet: "Задач пока нет. Создайте первую!",
+      now: "Сейчас"
+    },
+
+    calendar: {
+      addTask: "Добавить задачу на дату",
+      selectDate: "Выберите дату",
+      tasksForDate: "Задачи на",
+      noTasks: "На эту дату задач нет",
+      addPlan: "План добавлен!",
+      enterTitle: "Введите название задачи",
+      dateUpdated: "Дата обновлена",
+      dateRemoved: "Дата удалена",
+      noDate: "✕ Без даты",
+      weekdays: ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"],
+      addTaskBtn: "+ Добавить план",
+      modalTitle: "Добавить план",
+      noDateSelected: "Дата не выбрана",
+      taskNamePlaceholder: "НАЗВАНИЕ ЗАДАЧИ",
+      descriptionPlaceholder: "ОПИСАНИЕ (необязательно)",
+      priorityLabel: "Приоритет:",
+      noPriority: "Без приоритета",
+      emptyStateText: "Выберите дату, чтобы увидеть запланированные задачи",
+      saveBtn: "Сохранить"
+    },
+
+    ai: {
+      greeting: "👋 Привет! Я твой AI-ассистент по планированию.",
+      howCanHelp: "Чем я могу помочь сегодня? 😊",
+      noTasks: "У тебя пока нет задач. Создай первую, нажав кнопку «Добавить задачу»!",
+      taskAnalysis: "📊 Анализ задач:",
+      totalTasks: "📋 Всего задач:",
+      inProgress: "🔄 В процессе:",
+      planned: "📝 Запланировано:",
+      completed: "✅ Завершено:",
+      recommendations: "💡 Рекомендации:",
+      manyInProgress: "⚠️ У тебя слишком много задач в процессе",
+      focusRecommendation: "Рекомендую сосредоточиться на 2–3 важных задачах.",
+      setPriorities: "🎯 Установи приоритеты для",
+      tasks: "задач. Используй колонку «Приоритет».",
+      startWithImportant: "⏰ Начни день с самой важной задачи",
+      setReminders: "🔔 Устанавливай напоминания для срочных задач",
+      markCompleted: "🎉 Не забывай отмечать выполненные задачи!",
+      goodQuestion: "🤔 Хороший вопрос! Вот что я умею:",
+      analyzeCommand: "💬 «Проанализируй мои задачи» — показать статистику",
+      planDay: "⏰ «Запланируй день» — составить расписание",
+      howToPrioritize: "🎯 «Как расставить приоритеты» — объяснить систему",
+      giveTips: "💡 «Дай советы» — советы по продуктивности",
+      helpCommand: "❓ «Помощь» — показать все команды",
+      justAsk: "Просто напиши команду своими словами! 😊",
+      great: "👌 Отлично! Дай знать, если понадобится помощь.",
+      happyToHelp: "😊 Всегда рад помочь!",
+      imHere: "👌 Хорошо, я здесь, если понадоблюсь.",
+      gladYouLiked: "😄 Рад, что понравилось!",
+      iAmAssistant: "🤖 Я AI-ассистент, который помогает:",
+      planDay2: "⏰ планировать день",
+      setPriorities2: "🎯 расставлять приоритеты",
+      workProductively: "📊 работать продуктивнее"
+    },
+
+    languageChanged: "Язык изменён на русский"
   }
 };
 
-i18n.uk = i18n.ua;
-
 function applyFullLanguage(lang) {
-  const t = i18n[lang] || i18n['uk'];
+  const t = i18n[lang] || i18n['en'];
   localStorage.setItem('site_lang', lang);
   
   const setTextSafe = (selector, text) => {
@@ -666,7 +847,7 @@ function applyLang(lang) {
   const monthNames = {
     en: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
     ua: ['Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'Жовтень', 'Листопад', 'Грудень'],
-    uk: ['Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'Жовтень', 'Листопад', 'Грудень']
+    ru: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
   };
 
   function renderQuickCalendarContent() {
@@ -676,7 +857,7 @@ function applyLang(lang) {
 
     const year = quickCalendarDate.getFullYear();
     const month = quickCalendarDate.getMonth();
-    const lang = localStorage.getItem('site_lang') || 'uk';
+    const lang = localStorage.getItem('site_lang') || 'en';
     const t = i18n[lang];
     
     title.textContent = `${monthNames[lang][month]} ${year}`;
@@ -775,7 +956,7 @@ function removeAllMenus() {
     e.preventDefault();
     removeAllMenus();
 
-    const currentLang = localStorage.getItem('site_lang') || 'uk';
+    const currentLang = localStorage.getItem('site_lang') || 'en';
     const t = i18n[currentLang];
 
     const menu = document.createElement('div');
@@ -830,7 +1011,7 @@ function removeAllMenus() {
     const oldSub = document.querySelector('.task-type-sub-menu');
     if (oldSub) oldSub.remove();
 
-    const currentLang = localStorage.getItem('site_lang') || 'uk';
+    const currentLang = localStorage.getItem('site_lang') || 'en';
     const t = i18n[currentLang];
 
     const subMenu = document.createElement('div');
@@ -959,7 +1140,7 @@ function removeAllMenus() {
       
     if (!calendarGrid || !calendarTitle) return;
 
-    const lang = localStorage.getItem('site_lang') || 'uk';
+    const lang = localStorage.getItem('site_lang') || 'en';
     const year = currentCalendarDate.getFullYear();
     const month = currentCalendarDate.getMonth();
 
@@ -1262,7 +1443,7 @@ function removeAllMenus() {
         }
 
         if (typeof showNotification === 'function') {
-            const currentLang = localStorage.getItem('site_lang') || 'uk';
+            const currentLang = localStorage.getItem('site_lang') || 'en';
             const t = i18n[currentLang];
             showNotification(dateStr ? (t.calendar?.dateUpdated || 'Date updated') : (t.calendar?.dateRemoved || 'Date removed'), 'success');
         }
@@ -1354,7 +1535,7 @@ function removeAllMenus() {
   }
 
   window.addEventListener('DOMContentLoaded', () => {
-    const savedLang = localStorage.getItem('site_lang') || 'uk';
+    const savedLang = localStorage.getItem('site_lang') || 'en';
     applyFullLanguage(savedLang);
     const header = $('.home-header');
     const modalLog = $('.modal-overlay-log');
@@ -1484,7 +1665,7 @@ function removeAllMenus() {
       saveProfileBtn.addEventListener('click', () => {
         const profileNameInput = document.getElementById('profileNameInput');
         const newName = profileNameInput?.value.trim();
-        const currentLang = localStorage.getItem('site_lang') || 'uk';
+        const currentLang = localStorage.getItem('site_lang') || 'en';
         const t = i18n[currentLang];
         
         if (!newName) {
@@ -1535,28 +1716,28 @@ function removeAllMenus() {
       languageOptions.forEach(option => {
         option.addEventListener('click', () => {
           const selectedLang = option.dataset.lang;
-          const flag = option.querySelector('.lang-flag').textContent;
-          const name = option.querySelector('.lang-name').textContent;
-          
+          const flag = option.querySelector('.lang-flag')?.textContent || '';
+          const name = option.querySelector('.lang-name')?.textContent || '';
+
           if (selectedLangFlag) selectedLangFlag.textContent = flag;
           if (selectedLangName) selectedLangName.textContent = name;
-          
+
           languageDropdownBtn.classList.remove('open');
           languageDropdownMenu.classList.remove('open');
-          
+
           applyFullLanguage(selectedLang);
-          
+
           updateCurrentUserData(user => {
             if (!user.profile) user.profile = {};
             user.profile.language = selectedLang;
           });
-          
+
           const aiChat = document.getElementById('aiChat');
           if (aiChat) {
             aiChat.innerHTML = '';
             initAIGreeting();
           }
-          
+
           const t = i18n[selectedLang];
           showNotification(t.languageChanged || 'Language changed', 'success');
         });
@@ -1565,14 +1746,19 @@ function removeAllMenus() {
 
     function initLanguageDropdown() {
       const user = getCurrentUserData();
-      const currentLang = user?.profile?.language || localStorage.getItem('site_lang') || 'uk';
+      const currentLang =
+        user?.profile?.language ||
+        localStorage.getItem('site_lang') ||
+        'en';
+
       const t = i18n[currentLang];
-      
+
       const langData = {
-        'uk': { flag: '🇺🇦', name: t.profile?.ukrainian || 'Українська' },
-        'en': { flag: '🇬🇧', name: t.profile?.english || 'English' }
+        uk: { flag: '🇺🇦', name: t.profile?.ukrainian || 'Українська' },
+        en: { flag: '🇬🇧', name: t.profile?.english || 'English' },
+        ru: { flag: '🇷🇺', name: t.profile?.russian || 'Русский' }
       };
-      
+
       if (selectedLangFlag && selectedLangName && langData[currentLang]) {
         selectedLangFlag.textContent = langData[currentLang].flag;
         selectedLangName.textContent = langData[currentLang].name;
@@ -1580,17 +1766,22 @@ function removeAllMenus() {
 
       const languageOptions = document.querySelectorAll('.language-option');
       languageOptions.forEach(option => {
+        const lang = option.dataset.lang;
         const langName = option.querySelector('.lang-name');
-        if (option.dataset.lang === 'uk' && langName) {
+
+        if (!langName) return;
+
+        if (lang === 'uk') {
           langName.textContent = t.profile?.ukrainian || 'Українська';
-        } else if (option.dataset.lang === 'en' && langName) {
+        } else if (lang === 'en') {
           langName.textContent = t.profile?.english || 'English';
+        } else if (lang === 'ru') {
+          langName.textContent = t.profile?.russian || 'Русский';
         }
       });
-      
+
       applyFullLanguage(currentLang);
     }
-
     if (modalProfile) {
       const observer = new MutationObserver((mutations) => {
         mutations.forEach((mutation) => {
