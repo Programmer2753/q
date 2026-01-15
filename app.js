@@ -1559,9 +1559,11 @@ function removeAllMenus() {
       const dashboard = document.getElementById('dashboardPage');
 
       if (currentUser) {
-        landing.style.display = 'none';
-        dashboard.style.display = 'flex';
-        
+        if (landing) {
+          landing.style.display = 'none';
+          dashboard.style.display = 'flex';
+        }
+      
         if (userInfo) {
           userInfo.style.display = 'flex';
           const userData = getCurrentUserData();
