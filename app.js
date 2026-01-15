@@ -2067,10 +2067,7 @@ function removeAllMenus() {
         saveUser(email, password);
         setCurrentUser(email);
         loadUserTasks();
-        const success = true;
-        if (success) {
-            window.location.href = '/index';
-        }
+        window.location.href = '/index';
 
         const t = i18n[localStorage.getItem('site_lang') || 'en'];
         showNotification(t.notifications.registerSuccess(getEmailName(email)), 'success');
