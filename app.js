@@ -1560,6 +1560,7 @@ function removeAllMenus() {
 
       if (currentUser) {
         landing.style.display = 'none';
+        window.location.href = '/index';
         dashboard.style.display = 'flex';
         
         if (userInfo) {
