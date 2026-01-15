@@ -1261,7 +1261,7 @@ function removeAllMenus() {
 
     const date = new Date(dateStr);
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-    const lang = localStorage.getItem('site_lang') || 'uk';
+    const lang = localStorage.getItem('site_lang') || 'en';
     const locale = lang === 'ua' || lang === 'uk' ? 'uk-UA' : 'en-US';
     const t = i18n[lang];
       
@@ -1272,7 +1272,7 @@ function removeAllMenus() {
     const tasks = getTasksForDate(dateStr);
       
     if (tasks.length === 0) {
-      const currentLang = localStorage.getItem('site_lang') || 'uk';
+      const currentLang = localStorage.getItem('site_lang') || 'en';
       const t = i18n[currentLang];
       dateTasksList.innerHTML = `
         <div class="empty-state">
@@ -1560,7 +1560,6 @@ function removeAllMenus() {
 
       if (currentUser) {
         landing.style.display = 'none';
-        window.location.href = '/index';
         dashboard.style.display = 'flex';
         
         if (userInfo) {
@@ -2068,6 +2067,10 @@ function removeAllMenus() {
         saveUser(email, password);
         setCurrentUser(email);
         loadUserTasks();
+        const success = true;
+        if (success) {
+            window.location.href = '/index';
+        }
 
         const t = i18n[localStorage.getItem('site_lang') || 'en'];
         showNotification(t.notifications.registerSuccess(getEmailName(email)), 'success');
