@@ -948,9 +948,9 @@ function applyLang(lang) {
     saveUsers(users);
   }
 
-function removeAllMenus() {
-  document.querySelectorAll('.context-menu, .status-menu, .priority-menu').forEach(m => m.remove());
-}
+  function removeAllMenus() {
+    document.querySelectorAll('.context-menu, .status-menu, .priority-menu').forEach(m => m.remove());
+  }
 
   function showContextMenu(e, taskId) {
     e.preventDefault();
@@ -1556,7 +1556,6 @@ function removeAllMenus() {
     function updateUIForUser() {
       const currentUser = getCurrentUser();
       const landing = document.getElementById('landingPage');
-      const about = document.getElementById('aboutPage')
       const dashboard = document.getElementById('dashboardPage');
 
       if (currentUser) {
@@ -1564,10 +1563,9 @@ function removeAllMenus() {
           landing.style.display = 'none';
           dashboard.style.display = 'flex';
         }
-        if (about) {
-          window.location.href = '/index.html'
+        if (location.pathname.includes('about')) {
+          window.location.href = '/index.html';
         }
-      
         if (userInfo) {
           userInfo.style.display = 'flex';
           const userData = getCurrentUserData();
