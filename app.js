@@ -1556,12 +1556,16 @@ function removeAllMenus() {
     function updateUIForUser() {
       const currentUser = getCurrentUser();
       const landing = document.getElementById('landingPage');
+      const about = document.getElementById('aboutPage')
       const dashboard = document.getElementById('dashboardPage');
 
       if (currentUser) {
         if (landing) {
           landing.style.display = 'none';
           dashboard.style.display = 'flex';
+        }
+        if (about) {
+          window.location.href = '/index.html'
         }
       
         if (userInfo) {
