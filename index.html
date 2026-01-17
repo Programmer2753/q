@@ -6,11 +6,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/png" href="main_logo.png">
         <title>Schedule</title>
     </head>
     <body>
         <script src="app.js"></script>
+
         <!-- Custom Notifications -->
         <div id="notificationContainer"></div>
 
@@ -30,7 +30,7 @@
                 <button class="email-btn" id="loginButton">
                     <span class="arrow">→</span>
                     <span class="txt">Увійти</span>
-                </button>
+                    </button>
                 <p class="dop-links"><a href="" id="resetPasswordLink">Забули пароль?</a></p>
                 <p class="dop-links">
                     <span class="pre-link-text-log">Немає акаунту? </span>
@@ -55,8 +55,8 @@
 
                 <button class="email-btn" id="registerButton">
                     <span class="arrow">→</span>
-                    <span class="txt">Зареєструватися</span>
-                </button>
+                <span class="txt">Зареєструватися</span>
+                    </button>
                 <p class="dop-links">
                     <span class="pre-link-text-start">Вже є акаунт? </span>
                     <a href="" id="switchToLogin">Увійти</a>
@@ -179,9 +179,26 @@
                                     <span class="lang-flag">🇬🇧</span>
                                     <span class="lang-name">English</span>
                                 </div>
-                                <div class="language-option" data-lang="ru">
-                                    <span class="lang-flag">🇷🇺</span>
-                                    <span class="lang-name">Русский</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-section">
+                        <label class="profile-label" id="themeLabel">Тема інтерфейсу</label>
+                        <div class="theme-dropdown">
+                            <button class="theme-dropdown-btn" id="themeDropdownBtn">
+                                <span class="selected-theme-icon" id="selectedThemeIcon">🌙</span>
+                                <span class="selected-theme-name" id="selectedThemeName">Темна</span>
+                                <span class="dropdown-arrow">▼</span>
+                            </button>
+                            <div class="theme-dropdown-menu" id="themeDropdownMenu">
+                                <div class="theme-option" data-theme="dark">
+                                    <span class="theme-icon">🌙</span>
+                                    <span class="theme-name">Темна</span>
+                                </div>
+                                <div class="theme-option" data-theme="light">
+                                    <span class="theme-icon">☀️</span>
+                                    <span class="theme-name">Світла</span>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +247,7 @@
                         <span class="arrow">→</span>
                         <span class="text">Get started for free</span>
                     </button>
-            </div>
+        </div>
 
                 <div class="decorative-shapes">
                     <div class="shape shape-1"></div>
@@ -320,12 +337,12 @@
                 <div class="sidebar-top">
                     <div class="sidebar-item active">
                         <div class="icon glow">⌂</div>
-                        <span>Home</span>
+                        <span id="sidebarHome">Головна</span>
                     </div>
 
                     <div class="sidebar-item">
                         <div class="icon">🗓</div>
-                        <span>Planner</span>
+                        <span id="sidebarPlanner">Планувальник</span>
                     </div>
 
                     <div class="sidebar-item">
@@ -333,17 +350,17 @@
                             ✦
                             <span class="dot"></span>
                         </div>
-                        <span>AI</span>
+                        <span id="sidebarAI">AI</span>
                     </div>
 
                     <div class="sidebar-item">
                         <div class="icon">👥</div>
-                        <span>Teams</span>
+                        <span id="sidebarTeams">Команди</span>
                     </div>
 
                     <div class="sidebar-item">
                         <div class="icon">⋮⋮</div>
-                        <span>More</span>
+                        <span id="sidebarMore">Більше</span>
                     </div>
 
                 </div>
@@ -352,12 +369,12 @@
 
                     <div class="sidebar-item">
                         <div class="icon">＋</div>
-                        <span>Invite</span>
+                        <span id="sidebarInvite">Запросити</span>
                     </div>
 
                     <div class="sidebar-item upgrade">
                         <div class="icon">⬆</div>
-                        <span>Upgrade</span>
+                        <span id="sidebarUpgrade">Покращити</span>
                     </div>
 
                 </div>
@@ -367,8 +384,8 @@
             <div class="main-window">
 
                 <div class="topbar">
-                    <div class="breadcrumbs">
-                        Home
+                    <div class="breadcrumbs" id="breadcrumbsHome">
+                        Головна
                     </div>
                     
                     <div class="user-info" id="userInfo" style="display: none;">
@@ -754,4 +771,4 @@
             <div id="quickCalendarGrid" class="quick-calendar-grid"></div>
         </div>
     </body>
-</html>
+</html> 
