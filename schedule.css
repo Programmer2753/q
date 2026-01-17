@@ -1067,7 +1067,7 @@ nav a:hover,
 }
 
 .table tbody tr {
-    height: 44px;
+    height: 52px;
     transition: background 0.15s;
 }
 
@@ -1076,9 +1076,11 @@ nav a:hover,
 }
 
 .table td {
-    padding: 8px;
+    padding: 12px 8px;
     font-size: 14px;
     border-bottom: 1px solid #1e1e1f;
+    vertical-align: middle;
+    height: 52px;
 }
 
 .table td:nth-child(2),
@@ -1086,6 +1088,14 @@ nav a:hover,
 .table td:nth-child(4),
 .table td:nth-child(6) {
     width: auto;
+}
+
+.table td {
+    line-height: 1.4;
+}
+
+.table td > * {
+    vertical-align: middle;
 }
 
 .group-row td {
@@ -1127,10 +1137,12 @@ nav a:hover,
 }
 
 .status {
-  padding: 4px 10px;
+  padding: 6px 12px;
   border-radius: 999px;
   font-size: 12px;
   font-weight: 600;
+  display: inline-block;
+  line-height: 1.2;
 }
 
 .status:hover {
@@ -2398,8 +2410,11 @@ nav a:hover,
 }
 
 .profile-modal {
-    max-width: 500px;
-    width: 90%;
+    width: 500px;
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 30px;
 }
 
 .dark-modal {
@@ -2471,6 +2486,33 @@ nav a:hover,
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .profile-modal {
+        width: 95vw;
+        padding: 20px;
+    }
+    
+    .profile-stats {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .profile-stat-value {
+        font-size: 28px !important;
+    }
+    
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-avatar-large {
+        width: 70px !important;
+        height: 70px !important;
+        font-size: 32px !important;
+    }
 }
 
 .profile-stat {
