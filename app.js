@@ -51,9 +51,6 @@ const i18n = {
       namePlaceholder: "Enter name",
       registrationDate: "Registration Date",
       language: "Interface Language",
-      theme: "Interface Theme",
-      themeDark: "Dark",
-      themeLight: "Light",
       saveChanges: "Save changes",
       profileUpdated: "Profile updated!",
       enterName: "Enter profile name",
@@ -68,16 +65,6 @@ const i18n = {
     menu: {
       myProfile: "My Profile",
       logout: "Log Out"
-    },
-
-    sidebar: {
-      home: "Home",
-      planner: "Planner",
-      ai: "AI",
-      teams: "Teams",
-      more: "More",
-      invite: "Invite",
-      upgrade: "Upgrade"
     },
 
     views: {
@@ -115,8 +102,7 @@ const i18n = {
       delete: "Delete",
       taskType: "Task Type",
       save: "Save",
-      cancel: "Cancel",
-      clear: "Clear"
+      cancel: "Cancel"
     },
 
     dashboard: {
@@ -192,8 +178,7 @@ const i18n = {
       workProductively: "📊 work more productively"
     },
 
-    languageChanged: "Language changed to English",
-    themeChanged: "Theme changed successfully"
+    languageChanged: "Language changed to English"
   },
 
   ua: {
@@ -248,9 +233,6 @@ const i18n = {
       namePlaceholder: "Введіть ім'я",
       registrationDate: "Дата реєстрації",
       language: "Мова інтерфейсу",
-      theme: "Тема інтерфейсу",
-      themeDark: "Темна",
-      themeLight: "Світла",
       saveChanges: "Зберегти зміни",
       profileUpdated: "Профіль оновлено!",
       enterName: "Введіть ім'я профілю",
@@ -265,16 +247,6 @@ const i18n = {
     menu: {
       myProfile: "Мій профіль",
       logout: "Вийти"
-    },
-
-    sidebar: {
-      home: "Головна",
-      planner: "Планувальник",
-      ai: "AI",
-      teams: "Команди",
-      more: "Більше",
-      invite: "Запросити",
-      upgrade: "Покращити"
     },
 
     views: {
@@ -312,8 +284,7 @@ const i18n = {
       delete: "Видалити",
       taskType: "Тип завдання",
       save: "Зберегти",
-      cancel: "Скасувати",
-      clear: "Очистити"
+      cancel: "Скасувати"
     },
 
     dashboard: {
@@ -389,8 +360,7 @@ const i18n = {
       workProductively: "📊 працювати продуктивніше"
     },
 
-    languageChanged: "Мову змінено на українську",
-    themeChanged: "Тему успішно змінено"
+    languageChanged: "Мову змінено на українську"
   },
 
   ru: {
@@ -398,12 +368,12 @@ const i18n = {
     logout: "Выйти",
     divider: "или",
     getStarted: "Начать бесплатно",
-    welcomeBack: name => `Привет, ${name}! Рады видеть вас снова.`,
-    loginTitle: "Войти в аккаунт",
+    welcomeBack: name => `Привет, ${name}! Рад снова тебя видеть.`,
+    loginTitle: "Вход",
     registerTitle: "Создать аккаунт",
-    resetTitle: "Сбросить пароль",
+    resetTitle: "Сброс пароля",
 
-    email: "ЭЛЕКТРОННАЯ ПОЧТА",
+    email: "EMAIL",
     password: "ПАРОЛЬ",
     confirmPassword: "ПОДТВЕРДИТЕ ПАРОЛЬ",
 
@@ -415,11 +385,11 @@ const i18n = {
     resetPassword: "Сбросить пароль",
     cancelReset: "Отмена",
 
-    heroTitle: "Преврати свои идеи в реальность",
+    heroTitle: "Превращайте идеи в реальность",
     heroSubtitle:
       "Планировщик помогает организовать работу, управлять проектами и сотрудничать с командой.",
 
-    footerTitle: "Начни с простого.\nСоздай свою первую задачу.",
+    footerTitle: "Начните с простого.\nСоздайте первую задачу.",
     exploreTemplates: "Посмотреть все шаблоны",
 
     products: "Продукты",
@@ -432,11 +402,11 @@ const i18n = {
       fillAll: "Пожалуйста, заполните все поля",
       passwordsMismatch: "Пароли не совпадают",
       userExists: "Пользователь с таким email уже существует",
-      registerSuccess: name => `Регистрация успешна! Привет, ${name}!`,
+      registerSuccess: name => `Регистрация прошла успешно! Привет, ${name}!`,
       loginError: "Неверный email или пароль",
-      loginSuccess: name => `Вход выполнен! Привет, ${name}!`,
-      loggedOut: "Вы успешно вышли из аккаунта",
-      resetSent: "Письмо для сброса пароля отправлено на почту"
+      loginSuccess: name => `Вход выполнен успешно! Привет, ${name}!`,
+      loggedOut: "Вы вышли из аккаунта",
+      resetSent: "Письмо для сброса пароля отправлено"
     },
 
     profile: {
@@ -445,33 +415,21 @@ const i18n = {
       namePlaceholder: "Введите имя",
       registrationDate: "Дата регистрации",
       language: "Язык интерфейса",
-      theme: "Тема интерфейса",
-      themeDark: "Тёмная",
-      themeLight: "Светлая",
       saveChanges: "Сохранить изменения",
       profileUpdated: "Профиль обновлён!",
       enterName: "Введите имя профиля",
       totalTasks: "Всего задач",
-      completed: "Выполнено",
+      completed: "Завершено",
       productivity: "Продуктивность",
       myProfile: "Мой профиль",
       ukrainian: "Украинский",
-      english: "Английский"
+      english: "Английский",
+      russian: "Русский"
     },
 
     menu: {
       myProfile: "Мой профиль",
       logout: "Выйти"
-    },
-
-    sidebar: {
-      home: "Главная",
-      planner: "Планировщик",
-      ai: "AI",
-      teams: "Команды",
-      more: "Ещё",
-      invite: "Пригласить",
-      upgrade: "Улучшить"
     },
 
     views: {
@@ -482,7 +440,7 @@ const i18n = {
 
     table: {
       name: "Название",
-      dueDate: "Дата",
+      dueDate: "Срок",
       priority: "Приоритет",
       status: "Статус",
       comments: "Комментарии",
@@ -498,9 +456,9 @@ const i18n = {
     },
 
     statuses: {
-      done: "ВЫПОЛНЕНО",
+      done: "ГОТОВО",
       inProgress: "В ПРОЦЕССЕ",
-      todo: "СДЕЛАТЬ"
+      todo: "К СДЕЛАТЬ"
     },
 
     taskActions: {
@@ -509,12 +467,11 @@ const i18n = {
       delete: "Удалить",
       taskType: "Тип задачи",
       save: "Сохранить",
-      cancel: "Отмена",
-      clear: "Очистить"
+      cancel: "Отмена"
     },
 
     dashboard: {
-      title: "Обзор панели",
+      title: "Обзор дашборда",
       subtitle: "Обзор ваших проектов и задач",
       totalTasks: "Всего задач",
       inProgress: "В процессе",
@@ -523,10 +480,10 @@ const i18n = {
       progressTitle: "Прогресс задач",
       prioritiesTitle: "Приоритеты",
       recentTitle: "Последние задачи",
-      todoStatus: "СДЕЛАТЬ",
+      todoStatus: "К СДЕЛАТЬ",
       inProgressStatus: "В ПРОЦЕССЕ",
-      doneStatus: "ВЫПОЛНЕНО",
-      noTasksYet: "Пока нет задач. Создайте свою первую задачу!",
+      doneStatus: "ГОТОВО",
+      noTasksYet: "Задач пока нет. Создайте первую!",
       now: "Сейчас"
     },
 
@@ -534,7 +491,7 @@ const i18n = {
       addTask: "Добавить задачу на дату",
       selectDate: "Выберите дату",
       tasksForDate: "Задачи на",
-      noTasks: "Нет задач на эту дату",
+      noTasks: "На эту дату задач нет",
       addPlan: "План добавлен!",
       enterTitle: "Введите название задачи",
       dateUpdated: "Дата обновлена",
@@ -553,41 +510,40 @@ const i18n = {
     },
 
     ai: {
-      greeting: "👋 Привет! Я твой AI ассистент по планированию.",
-      howCanHelp: "Чем могу помочь сегодня? 😊",
-      noTasks: "У вас пока нет задач. Создайте первую задачу!",
-      taskAnalysis: "📊 Анализ ваших задач:",
+      greeting: "👋 Привет! Я твой AI-ассистент по планированию.",
+      howCanHelp: "Чем я могу помочь сегодня? 😊",
+      noTasks: "У тебя пока нет задач. Создай первую, нажав кнопку «Добавить задачу»!",
+      taskAnalysis: "📊 Анализ задач:",
       totalTasks: "📋 Всего задач:",
       inProgress: "🔄 В процессе:",
       planned: "📝 Запланировано:",
       completed: "✅ Завершено:",
       recommendations: "💡 Рекомендации:",
-      manyInProgress: "⚠️ У вас много задач в процессе",
+      manyInProgress: "⚠️ У тебя слишком много задач в процессе",
       focusRecommendation: "Рекомендую сосредоточиться на 2–3 важных задачах.",
-      setPriorities: "🎯 Расставьте приоритеты для",
-      tasks: "задач. Используйте колонку Priority.",
-      startWithImportant: "⏰ Начинайте день с самой важной задачи",
-      setReminders: "🔔 Устанавливайте напоминания для срочных задач",
-      markCompleted: "🎉 Не забывайте отмечать выполненные задачи!",
-      goodQuestion: "🤔 Хороший вопрос! Вот что я могу сделать:",
-      analyzeCommand: "💬 'Проанализируй мои задачи' — статистика",
-      planDay: "⏰ 'Распредели задачи на день' — план дня",
-      howToPrioritize: "🎯 'Как расставить приоритеты' — объяснение",
-      giveTips: "💡 'Дай советы' — полезные советы",
-      helpCommand: "❓ 'Помощь' — список команд",
-      justAsk: "Просто напишите команду своими словами 😊",
-      great: "👌 Отлично! Если что — пиши.",
+      setPriorities: "🎯 Установи приоритеты для",
+      tasks: "задач. Используй колонку «Приоритет».",
+      startWithImportant: "⏰ Начни день с самой важной задачи",
+      setReminders: "🔔 Устанавливай напоминания для срочных задач",
+      markCompleted: "🎉 Не забывай отмечать выполненные задачи!",
+      goodQuestion: "🤔 Хороший вопрос! Вот что я умею:",
+      analyzeCommand: "💬 «Проанализируй мои задачи» — показать статистику",
+      planDay: "⏰ «Запланируй день» — составить расписание",
+      howToPrioritize: "🎯 «Как расставить приоритеты» — объяснить систему",
+      giveTips: "💡 «Дай советы» — советы по продуктивности",
+      helpCommand: "❓ «Помощь» — показать все команды",
+      justAsk: "Просто напиши команду своими словами! 😊",
+      great: "👌 Отлично! Дай знать, если понадобится помощь.",
       happyToHelp: "😊 Всегда рад помочь!",
-      imHere: "👌 Я здесь, если что.",
+      imHere: "👌 Хорошо, я здесь, если понадоблюсь.",
       gladYouLiked: "😄 Рад, что понравилось!",
-      iAmAssistant: "🤖 Я AI ассистент, который помогает:",
+      iAmAssistant: "🤖 Я AI-ассистент, который помогает:",
       planDay2: "⏰ планировать день",
       setPriorities2: "🎯 расставлять приоритеты",
       workProductively: "📊 работать продуктивнее"
     },
 
-    languageChanged: "Язык изменён на русский",
-    themeChanged: "Тема успешно изменена"
+    languageChanged: "Язык изменён на русский"
   }
 };
 
@@ -663,7 +619,6 @@ function applyFullLanguage(lang) {
   if (profileLabels[0]) profileLabels[0].textContent = t.profile?.nameLabel || 'Profile Name';
   if (profileLabels[1]) profileLabels[1].textContent = t.profile?.registrationDate || 'Registration Date';
   if (profileLabels[2]) profileLabels[2].textContent = t.profile?.language || 'Language';
-  if (profileLabels[3]) profileLabels[3].textContent = t.profile?.theme || 'Theme';
   
   setPlaceholderSafe('#profileNameInput', t.profile?.namePlaceholder || 'Enter name');
   setTextSafe('#saveProfileBtn .txt', t.profile?.saveChanges || 'Save changes');
@@ -678,15 +633,6 @@ function applyFullLanguage(lang) {
 
   const logoutMenuItem = document.querySelector('#logoutBtn .menu-text');
   if (logoutMenuItem) logoutMenuItem.textContent = t.menu?.logout || 'Log Out';
-
-  setTextSafe('#sidebarHome', t.sidebar?.home || 'Home');
-  setTextSafe('#sidebarPlanner', t.sidebar?.planner || 'Planner');
-  setTextSafe('#sidebarAI', t.sidebar?.ai || 'AI');
-  setTextSafe('#sidebarTeams', t.sidebar?.teams || 'Teams');
-  setTextSafe('#sidebarMore', t.sidebar?.more || 'More');
-  setTextSafe('#sidebarInvite', t.sidebar?.invite || 'Invite');
-  setTextSafe('#sidebarUpgrade', t.sidebar?.upgrade || 'Upgrade');
-  setTextSafe('#breadcrumbsHome', t.sidebar?.home || 'Home');
 
   const languageOptions = document.querySelectorAll('.language-option');
   languageOptions.forEach(option => {
@@ -703,24 +649,6 @@ function applyFullLanguage(lang) {
     selectedLangName.textContent = t.profile?.ukrainian || 'Ukrainian';
   } else if (selectedLangName && lang === 'en') {
     selectedLangName.textContent = t.profile?.english || 'English';
-  }
-
-  const themeOptions = document.querySelectorAll('.theme-option');
-  themeOptions.forEach(option => {
-    const themeName = option.querySelector('.theme-name');
-    if (option.dataset.theme === 'dark' && themeName) {
-      themeName.textContent = t.profile?.themeDark || 'Dark';
-    } else if (option.dataset.theme === 'light' && themeName) {
-      themeName.textContent = t.profile?.themeLight || 'Light';
-    }
-  });
-
-  const currentTheme = localStorage.getItem('site_theme') || 'dark';
-  const selectedThemeName = document.getElementById('selectedThemeName');
-  if (selectedThemeName) {
-    selectedThemeName.textContent = currentTheme === 'dark' 
-      ? (t.profile?.themeDark || 'Dark')
-      : (t.profile?.themeLight || 'Light');
   }
 
   const viewTabs = document.querySelectorAll('.view-tab');
@@ -860,129 +788,6 @@ function applyFullLanguage(lang) {
   if (emptyStateText && (emptyStateText.textContent.includes('обачити') || emptyStateText.textContent.includes('Select'))) {
     emptyStateText.textContent = t.calendar?.emptyStateText || 'Select a date to see planned tasks';
   }
-
-  document.querySelectorAll('.status').forEach(statusEl => {
-    const row = statusEl.closest('tr');
-    if (row && row.dataset.status) {
-      const status = row.dataset.status;
-      if (status === 'DONE') {
-        statusEl.textContent = t.statuses?.done || 'DONE';
-      } else if (status === 'IN PROGRESS') {
-        statusEl.textContent = t.statuses?.inProgress || 'IN PROGRESS';
-      } else if (status === 'TO DO') {
-        statusEl.textContent = t.statuses?.todo || 'TO DO';
-      }
-    } else {
-      const status = statusEl.textContent.trim();
-      if (status === 'DONE' || status === 'Виконано') {
-        statusEl.textContent = t.statuses?.done || 'DONE';
-      } else if (status === 'IN PROGRESS' || status === 'В процесі') {
-        statusEl.textContent = t.statuses?.inProgress || 'IN PROGRESS';
-      } else if (status === 'TO DO' || status === 'До виконання') {
-        statusEl.textContent = t.statuses?.todo || 'TO DO';
-      }
-    }
-  });
-
-  document.querySelectorAll('.priority-label').forEach(priorityEl => {
-    const priority = priorityEl.closest('.priority-btn')?.dataset.priority;
-    if (priority) {
-      if (priority === 'urgent') {
-        priorityEl.textContent = t.priorities?.urgent || 'Urgent';
-      } else if (priority === 'high') {
-        priorityEl.textContent = t.priorities?.high || 'High';
-      } else if (priority === 'normal') {
-        priorityEl.textContent = t.priorities?.normal || 'Normal';
-      } else if (priority === 'low') {
-        priorityEl.textContent = t.priorities?.low || 'Low';
-      } else {
-        priorityEl.textContent = '';
-      }
-    }
-  });
-
-  document.querySelectorAll('.priority-badge-small').forEach(badge => {
-    const priority = badge.className.includes('urgent') ? 'urgent' :
-                     badge.className.includes('high') ? 'high' :
-                     badge.className.includes('normal') ? 'normal' :
-                     badge.className.includes('low') ? 'low' : null;
-    if (priority) {
-      if (priority === 'urgent') {
-        badge.textContent = t.priorities?.urgent || 'Urgent';
-      } else if (priority === 'high') {
-        badge.textContent = t.priorities?.high || 'High';
-      } else if (priority === 'normal') {
-        badge.textContent = t.priorities?.normal || 'Normal';
-      } else if (priority === 'low') {
-        badge.textContent = t.priorities?.low || 'Low';
-      }
-    }
-  });
-
-  document.querySelectorAll('.status-item').forEach(item => {
-    const status = item.dataset.status;
-    if (status === 'DONE') {
-      const textNode = item.childNodes[1];
-      if (textNode && textNode.nodeType === 3) {
-        textNode.nodeValue = ' ' + (t.statuses?.done || 'DONE');
-      }
-    } else if (status === 'IN PROGRESS') {
-      const textNode = item.childNodes[1];
-      if (textNode && textNode.nodeType === 3) {
-        textNode.nodeValue = ' ' + (t.statuses?.inProgress || 'IN PROGRESS');
-      }
-    } else if (status === 'TO DO') {
-      const textNode = item.childNodes[1];
-      if (textNode && textNode.nodeType === 3) {
-        textNode.nodeValue = ' ' + (t.statuses?.todo || 'TO DO');
-      }
-    }
-  });
-
-  document.querySelectorAll('.activity-time').forEach(activityTime => {
-    const text = activityTime.textContent;
-    if (text.includes('DONE') || text.includes('Виконано')) {
-      activityTime.textContent = text.replace(/DONE|Виконано/g, t.statuses?.done || 'DONE');
-    }
-    if (text.includes('IN PROGRESS') || text.includes('В процесі')) {
-      activityTime.textContent = text.replace(/IN PROGRESS|В процесі/g, t.statuses?.inProgress || 'IN PROGRESS');
-    }
-    if (text.includes('TO DO') || text.includes('До виконання')) {
-      activityTime.textContent = text.replace(/TO DO|До виконання/g, t.statuses?.todo || 'TO DO');
-    }
-    if (text.includes('Urgent') || text.includes('Терміново')) {
-      activityTime.textContent = text.replace(/Urgent|Терміново/g, t.priorities?.urgent || 'Urgent');
-    }
-    if (text.includes('High') || text.includes('Високий')) {
-      activityTime.textContent = text.replace(/High|Високий/g, t.priorities?.high || 'High');
-    }
-    if (text.includes('Normal') || text.includes('Звичайний')) {
-      activityTime.textContent = text.replace(/Normal|Звичайний/g, t.priorities?.normal || 'Normal');
-    }
-    if (text.includes('Low') || text.includes('Низький')) {
-      activityTime.textContent = text.replace(/Low|Низький/g, t.priorities?.low || 'Low');
-    }
-  });
-
-  const calendarView = document.getElementById('calendarView');
-  if (calendarView && calendarView.style.display !== 'none') {
-    const selectedDateTitle = document.getElementById('selectedDateTitle');
-    if (selectedDateTitle && selectedDateTitle.textContent !== (t.calendar?.selectDate || 'Select Date')) {
-      const dateStr = selectedDateTitle.getAttribute('data-date');
-      if (dateStr && window.displayTasksForDate) {
-        window.displayTasksForDate(dateStr);
-      }
-    }
-    if (window.renderCalendar) {
-      window.renderCalendar();
-    }
-  }
-
-  setTimeout(() => {
-    if (window.updateDashboardStats) {
-      window.updateDashboardStats();
-    }
-  }, 100);
 }
 
 function applyLang(lang) {
@@ -1042,7 +847,7 @@ function applyLang(lang) {
   const monthNames = {
     en: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
     ua: ['Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'Жовтень', 'Листопад', 'Грудень'],
-    uk: ['Січень', 'Лютий', 'Березень', 'Квітень', 'Травень', 'Червень', 'Липень', 'Серпень', 'Вересень', 'Жовтень', 'Листопад', 'Грудень']
+    ru: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
   };
 
   function renderQuickCalendarContent() {
@@ -1143,9 +948,9 @@ function applyLang(lang) {
     saveUsers(users);
   }
 
-function removeAllMenus() {
-  document.querySelectorAll('.context-menu, .status-menu, .priority-menu').forEach(m => m.remove());
-}
+  function removeAllMenus() {
+    document.querySelectorAll('.context-menu, .status-menu, .priority-menu').forEach(m => m.remove());
+  }
 
   function showContextMenu(e, taskId) {
     e.preventDefault();
@@ -1476,30 +1281,7 @@ function removeAllMenus() {
         </div>
       `;
     } else {
-      dateTasksList.innerHTML = tasks.map(task => {
-        let statusText = task.status;
-        if (task.status === 'DONE') {
-          statusText = t.statuses?.done || 'DONE';
-        } else if (task.status === 'IN PROGRESS') {
-          statusText = t.statuses?.inProgress || 'IN PROGRESS';
-        } else if (task.status === 'TO DO') {
-          statusText = t.statuses?.todo || 'TO DO';
-        }
-
-        let priorityText = '';
-        if (task.priority && task.priority !== 'none') {
-          if (task.priority === 'urgent') {
-            priorityText = t.priorities?.urgent || 'Urgent';
-          } else if (task.priority === 'high') {
-            priorityText = t.priorities?.high || 'High';
-          } else if (task.priority === 'normal') {
-            priorityText = t.priorities?.normal || 'Normal';
-          } else if (task.priority === 'low') {
-            priorityText = t.priorities?.low || 'Low';
-          }
-        }
-
-        return `
+      dateTasksList.innerHTML = tasks.map(task => `
         <div class="date-task-card" data-task-id="${task.id}">
           <div class="task-card-header">
             <div class="task-card-status">
@@ -1510,12 +1292,11 @@ function removeAllMenus() {
           </div>
           ${task.description ? `<p class="task-card-description">${task.description}</p>` : ''}
           <div class="task-card-footer">
-            <span class="status ${statusClass(task.status)}">${statusText}</span>
-            ${priorityText ? `<span class="priority-badge-small ${task.priority}">${priorityText}</span>` : ''}
+            <span class="status ${statusClass(task.status)}">${task.status}</span>
+            ${task.priority && task.priority !== 'none' ? `<span class="priority-badge-small ${task.priority}">${task.priority}</span>` : ''}
           </div>
         </div>
-      `;
-      }).join('');
+      `).join('');
     }
   }
 
@@ -1527,15 +1308,12 @@ function removeAllMenus() {
       e.stopPropagation();
       removeMenus();
 
-      const currentLang = localStorage.getItem('site_lang') || 'en';
-      const t = i18n[currentLang] || i18n['uk'];
-
       const menu = document.createElement('div');
       menu.className = 'status-menu';
       menu.innerHTML = `
-        <div class="status-item" data-status="TO DO"><span class="task-status-dot dot-todo type-task"></span> ${t.statuses?.todo || 'TO DO'}</div>
-        <div class="status-item" data-status="IN PROGRESS"><span class="task-status-dot dot-progress type-task"></span> ${t.statuses?.inProgress || 'IN PROGRESS'}</div>
-        <div class="status-item" data-status="DONE"><span class="task-status-dot dot-done type-task"></span> ${t.statuses?.done || 'DONE'}</div>
+        <div class="status-item" data-status="TO DO"><span class="task-status-dot dot-todo type-task"></span> TO DO</div>
+        <div class="status-item" data-status="IN PROGRESS"><span class="task-status-dot dot-progress type-task"></span> IN PROGRESS</div>
+        <div class="status-item" data-status="DONE"><span class="task-status-dot dot-done type-task"></span> DONE</div>
       `;
 
       document.body.appendChild(menu);
@@ -1556,19 +1334,7 @@ function removeAllMenus() {
     const badge = row.querySelector('.status');
     const dot = row.querySelector('.task-status-dot');
 
-    const currentLang = localStorage.getItem('site_lang') || 'en';
-    const t = i18n[currentLang] || i18n['en'];
-
-    let statusText = status;
-    if (status === 'DONE') {
-      statusText = t.statuses?.done || 'DONE';
-    } else if (status === 'IN PROGRESS') {
-      statusText = t.statuses?.inProgress || 'IN PROGRESS';
-    } else if (status === 'TO DO') {
-      statusText = t.statuses?.todo || 'TO DO';
-    }
-
-    badge.textContent = statusText;
+    badge.textContent = status;
     badge.className = 'status ' + statusClass(status);
 
     dot.classList.remove('dot-todo', 'dot-progress', 'dot-done');
@@ -1599,23 +1365,22 @@ function removeAllMenus() {
 
     cell.dataset.priority = priority;
 
-    const currentLang = localStorage.getItem('site_lang') || 'en';
-    const t = i18n[currentLang] || i18n['uk'];
-
     const map = {
-      urgent: { icon: 'urgent_icon.png', text: t.priorities?.urgent || 'Urgent' },
-      high:   { icon: 'high_icon.png',   text: t.priorities?.high || 'High' },
-      normal: { icon: 'normal_icon.png', text: t.priorities?.normal || 'Normal' },
-      low:    { icon: 'low_icon.png',    text: t.priorities?.low || 'Low' },
+      urgent: { icon: 'urgent_icon.png', text: 'Urgent' },
+      high:   { icon: 'high_icon.png',   text: 'High' },
+      normal: { icon: 'normal_icon.png', text: 'Normal' },
+      low:    { icon: 'low_icon.png',    text: 'Low' },
       none:   { icon: 'priority_icon.png', text: '' }
     };
 
     if (img) img.src = map[priority].icon;
     if (label) label.textContent = map[priority].text;
 
-    if (row && row.dataset.id) {
     updateTask(row.dataset.id, { priority });
-  }
+
+    if (row && row.dataset.id) {
+      updateTask(row.dataset.id, { priority });
+    }
   }
 
   function formatShortDate(dateStr) {
@@ -1693,18 +1458,6 @@ function removeAllMenus() {
     row.dataset.id = task.id;
     row.dataset.status = task.status;
 
-    const currentLang = localStorage.getItem('site_lang') || 'en';
-    const t = i18n[currentLang] || i18n['en'];
-
-    let statusText = task.status;
-    if (task.status === 'DONE') {
-      statusText = t.statuses?.done || 'DONE';
-    } else if (task.status === 'IN PROGRESS') {
-      statusText = t.statuses?.inProgress || 'IN PROGRESS';
-    } else if (task.status === 'TO DO') {
-      statusText = t.statuses?.todo || 'TO DO';
-    }
-
     const dateHtml = task.date 
         ? `<span class="date-text">${formatShortDate(task.date)}</span>` 
         : `<img src="date_icon.png">`;
@@ -1722,7 +1475,7 @@ function removeAllMenus() {
         <img src="priority_icon.png">
         <span class="priority-label"></span>
       </td>
-      <td><span class="status ${statusClass(task.status)}">${statusText}</span></td>
+      <td><span class="status ${statusClass(task.status)}">${task.status}</span></td>
       <td class="icon-cell"><img src="comment_icon.png"></td>
       <td class="icon-cell">
         <button class="task-menu-btn" style="color: #666; background: none; border: none;">···</button>
@@ -1743,7 +1496,7 @@ function removeAllMenus() {
     }
 
     if (addRow) {
-      addRow.parentNode.insertBefore(row, addRow);
+        addRow.parentNode.insertBefore(row, addRow);
     }
 
     attachStatusMenu(row);
@@ -1806,9 +1559,13 @@ function removeAllMenus() {
       const dashboard = document.getElementById('dashboardPage');
 
       if (currentUser) {
-        landing.style.display = 'none';
-        dashboard.style.display = 'flex';
-        
+        if (landing) {
+          landing.style.display = 'none';
+          dashboard.style.display = 'flex';
+        }
+        if (location.pathname.includes('about')) {
+          window.location.href = '/index.html';
+        }
         if (userInfo) {
           userInfo.style.display = 'flex';
           const userData = getCurrentUserData();
@@ -1822,9 +1579,11 @@ function removeAllMenus() {
           }
         }
       } else {
-        landing.style.display = 'flex';
-        dashboard.style.display = 'none';
-        if (userInfo) userInfo.style.display = 'none';
+        if (landing) {
+          landing.style.display = 'flex';
+          dashboard.style.display = 'none';
+          if (userInfo) userInfo.style.display = 'none';
+        }
       }
     }
 
@@ -1910,7 +1669,7 @@ function removeAllMenus() {
       saveProfileBtn.addEventListener('click', () => {
         const profileNameInput = document.getElementById('profileNameInput');
         const newName = profileNameInput?.value.trim();
-        const currentLang = localStorage.getItem('site_lang') || 'uk';
+        const currentLang = localStorage.getItem('site_lang') || 'en';
         const t = i18n[currentLang];
         
         if (!newName) {
@@ -1961,28 +1720,28 @@ function removeAllMenus() {
       languageOptions.forEach(option => {
         option.addEventListener('click', () => {
           const selectedLang = option.dataset.lang;
-          const flag = option.querySelector('.lang-flag').textContent;
-          const name = option.querySelector('.lang-name').textContent;
-          
+          const flag = option.querySelector('.lang-flag')?.textContent || '';
+          const name = option.querySelector('.lang-name')?.textContent || '';
+
           if (selectedLangFlag) selectedLangFlag.textContent = flag;
           if (selectedLangName) selectedLangName.textContent = name;
-          
+
           languageDropdownBtn.classList.remove('open');
           languageDropdownMenu.classList.remove('open');
-          
+
           applyFullLanguage(selectedLang);
-          
+
           updateCurrentUserData(user => {
             if (!user.profile) user.profile = {};
             user.profile.language = selectedLang;
           });
-          
+
           const aiChat = document.getElementById('aiChat');
           if (aiChat) {
             aiChat.innerHTML = '';
             initAIGreeting();
           }
-          
+
           const t = i18n[selectedLang];
           showNotification(t.languageChanged || 'Language changed', 'success');
         });
@@ -1991,14 +1750,19 @@ function removeAllMenus() {
 
     function initLanguageDropdown() {
       const user = getCurrentUserData();
-      const currentLang = user?.profile?.language || localStorage.getItem('site_lang') || 'uk';
+      const currentLang =
+        user?.profile?.language ||
+        localStorage.getItem('site_lang') ||
+        'en';
+
       const t = i18n[currentLang];
-      
+
       const langData = {
-        'uk': { flag: '🇺🇦', name: t.profile?.ukrainian || 'Українська' },
-        'en': { flag: '🇬🇧', name: t.profile?.english || 'English' }
+        uk: { flag: '🇺🇦', name: t.profile?.ukrainian || 'Українська' },
+        en: { flag: '🇬🇧', name: t.profile?.english || 'English' },
+        ru: { flag: '🇷🇺', name: t.profile?.russian || 'Русский' }
       };
-      
+
       if (selectedLangFlag && selectedLangName && langData[currentLang]) {
         selectedLangFlag.textContent = langData[currentLang].flag;
         selectedLangName.textContent = langData[currentLang].name;
@@ -2006,104 +1770,22 @@ function removeAllMenus() {
 
       const languageOptions = document.querySelectorAll('.language-option');
       languageOptions.forEach(option => {
+        const lang = option.dataset.lang;
         const langName = option.querySelector('.lang-name');
-        if (option.dataset.lang === 'uk' && langName) {
+
+        if (!langName) return;
+
+        if (lang === 'ua' || lang === 'uk') {
           langName.textContent = t.profile?.ukrainian || 'Українська';
-        } else if (option.dataset.lang === 'en' && langName) {
+        } else if (lang === 'en') {
           langName.textContent = t.profile?.english || 'English';
+        } else if (lang === 'ru') {
+          langName.textContent = t.profile?.russian || 'Русский';
         }
       });
-      
+
       applyFullLanguage(currentLang);
     }
-
-    function initThemeDropdown() {
-      const currentTheme = localStorage.getItem('site_theme') || 'dark';
-      const currentLang = localStorage.getItem('site_lang') || 'uk';
-      const t = i18n[currentLang];
-      
-      const themeData = {
-        'dark': { icon: '🌙', name: t.profile?.themeDark || 'Dark' },
-        'light': { icon: '☀️', name: t.profile?.themeLight || 'Light' }
-      };
-      
-      const selectedThemeIcon = document.getElementById('selectedThemeIcon');
-      const selectedThemeName = document.getElementById('selectedThemeName');
-      
-      if (selectedThemeIcon && selectedThemeName && themeData[currentTheme]) {
-        selectedThemeIcon.textContent = themeData[currentTheme].icon;
-        selectedThemeName.textContent = themeData[currentTheme].name;
-      }
-
-      const themeOptions = document.querySelectorAll('.theme-option');
-      themeOptions.forEach(option => {
-        const themeName = option.querySelector('.theme-name');
-        if (option.dataset.theme === 'dark' && themeName) {
-          themeName.textContent = t.profile?.themeDark || 'Dark';
-        } else if (option.dataset.theme === 'light' && themeName) {
-          themeName.textContent = t.profile?.themeLight || 'Light';
-        }
-      });
-      
-      applyTheme(currentTheme);
-    }
-
-    function applyTheme(theme) {
-      if (theme === 'light') {
-        document.body.classList.add('light-theme');
-      } else {
-        document.body.classList.remove('light-theme');
-      }
-      localStorage.setItem('site_theme', theme);
-    }
-
-    const themeDropdownBtn = document.getElementById('themeDropdownBtn');
-    const themeDropdownMenu = document.getElementById('themeDropdownMenu');
-    
-    if (themeDropdownBtn && themeDropdownMenu) {
-      themeDropdownBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        themeDropdownBtn.classList.toggle('open');
-        themeDropdownMenu.classList.toggle('open');
-      });
-
-      const themeOptions = document.querySelectorAll('.theme-option');
-      themeOptions.forEach(option => {
-        option.addEventListener('click', () => {
-          const selectedTheme = option.dataset.theme;
-          const icon = option.querySelector('.theme-icon').textContent;
-          const name = option.querySelector('.theme-name').textContent;
-          
-          const selectedThemeIcon = document.getElementById('selectedThemeIcon');
-          const selectedThemeName = document.getElementById('selectedThemeName');
-          
-          if (selectedThemeIcon) selectedThemeIcon.textContent = icon;
-          if (selectedThemeName) selectedThemeName.textContent = name;
-          
-          themeDropdownBtn.classList.remove('open');
-          themeDropdownMenu.classList.remove('open');
-          
-          applyTheme(selectedTheme);
-          
-          updateCurrentUserData(user => {
-            if (!user.profile) user.profile = {};
-            user.profile.theme = selectedTheme;
-          });
-          
-          const currentLang = localStorage.getItem('site_lang') || 'uk';
-          const t = i18n[currentLang];
-          showNotification(t.themeChanged || 'Theme changed', 'success');
-        });
-      });
-
-      document.addEventListener('click', (e) => {
-        if (!themeDropdownBtn.contains(e.target) && !themeDropdownMenu.contains(e.target)) {
-          themeDropdownBtn.classList.remove('open');
-          themeDropdownMenu.classList.remove('open');
-        }
-      });
-    }
-
     if (modalProfile) {
       const observer = new MutationObserver((mutations) => {
         mutations.forEach((mutation) => {
@@ -2111,7 +1793,6 @@ function removeAllMenus() {
             const display = modalProfile.style.display;
             if (display === 'flex') {
               initLanguageDropdown();
-              initThemeDropdown();
             }
           }
         });
@@ -2121,9 +1802,6 @@ function removeAllMenus() {
     }
 
     updateUIForUser(true);
-
-    const savedTheme = localStorage.getItem('site_theme') || 'dark';
-    applyTheme(savedTheme);
 
     const userEmail = getCurrentUser();
     if (userEmail) {
@@ -2393,6 +2071,7 @@ function removeAllMenus() {
         saveUser(email, password);
         setCurrentUser(email);
         loadUserTasks();
+        window.location.href = '/index';
 
         const t = i18n[localStorage.getItem('site_lang') || 'en'];
         showNotification(t.notifications.registerSuccess(getEmailName(email)), 'success');
@@ -2676,7 +2355,7 @@ function removeAllMenus() {
         restoreAddRow(row);
       }
     });
-
+    
     document.addEventListener('click', e => {
       const btn = e.target.closest('.priority-btn');
       if (!btn) return;
@@ -2684,18 +2363,15 @@ function removeAllMenus() {
       e.stopPropagation();
       removePriorityMenu();
 
-      const currentLang = localStorage.getItem('site_lang') || 'uk';
-      const t = i18n[currentLang] || i18n['uk'];
-
       const menu = document.createElement('div');
       menu.className = 'priority-menu';
 
       menu.innerHTML = `
-        <button data-p="urgent"><img src="urgent_icon.png"> ${t.priorities?.urgent || 'Urgent'}</button>
-        <button data-p="high"><img src="high_icon.png"> ${t.priorities?.high || 'High'}</button>
-        <button data-p="normal"><img src="normal_icon.png"> ${t.priorities?.normal || 'Normal'}</button>
-        <button data-p="low"><img src="low_icon.png"> ${t.priorities?.low || 'Low'}</button>
-        <button data-p="none"><img src="clear_icon.png"> ${t.taskActions?.clear || 'Clear'}</button>
+        <button data-p="urgent"><img src="urgent_icon.png"> Urgent</button>
+        <button data-p="high"><img src="high_icon.png"> High</button>
+        <button data-p="normal"><img src="normal_icon.png"> Normal</button>
+        <button data-p="low"><img src="low_icon.png"> Low</button>
+        <button data-p="none"><img src="clear_icon.png"> Clear</button>
       `;
 
       document.body.appendChild(menu);
@@ -3023,14 +2699,10 @@ function removeAllMenus() {
 
         if (!nameCell || !statusCell) return;
 
-        const status = row.dataset.status || statusCell.textContent.trim();
-        const priority = priorityBtn?.dataset.priority || '';
-
         tasks.push({
           name: nameCell.textContent.trim(),
-          status: status,
-          statusText: statusCell.textContent.trim(),
-          priority: priority
+          status: statusCell.textContent.trim(),
+          priority: priorityBtn?.dataset.priority || ''
         });
       });
 
@@ -3040,10 +2712,10 @@ function removeAllMenus() {
       const todo = tasks.filter(t => t.status === 'TO DO').length;
       const productivity = totalTasks > 0 ? Math.round((completed / totalTasks) * 100) : 0;
 
-      const urgent = tasks.filter(t => t.priority === 'urgent').length;
-      const high = tasks.filter(t => t.priority === 'high').length;
-      const normal = tasks.filter(t => t.priority === 'normal').length;
-      const low = tasks.filter(t => t.priority === 'low').length;
+      const urgent = tasks.filter(t => t.priority.toLowerCase().includes('urgent')).length;
+      const high = tasks.filter(t => t.priority.toLowerCase().includes('high')).length;
+      const normal = tasks.filter(t => t.priority.toLowerCase().includes('normal')).length;
+      const low = tasks.filter(t => t.priority.toLowerCase().includes('low')).length;
 
       const setTextSafe = (id, text) => {
         const el = document.getElementById(id);
@@ -3081,9 +2753,6 @@ function removeAllMenus() {
         
         const recentTasks = tasks.slice(-5).reverse();
         
-        const currentLang = localStorage.getItem('site_lang') || 'uk';
-        const t = i18n[currentLang] || i18n['uk'];
-        
         recentTasks.forEach(task => {
           const activityItem = document.createElement('div');
           activityItem.className = 'activity-item';
@@ -3101,34 +2770,12 @@ function removeAllMenus() {
             icon = '🚫';
             bgColor = '#ef4444';
           }
-
-          let statusText = task.status;
-          if (task.status === 'DONE') {
-            statusText = t.statuses?.done || 'DONE';
-          } else if (task.status === 'IN PROGRESS') {
-            statusText = t.statuses?.inProgress || 'IN PROGRESS';
-          } else if (task.status === 'TO DO') {
-            statusText = t.statuses?.todo || 'TO DO';
-          }
-
-          let priorityText = '';
-          if (task.priority && task.priority !== 'none') {
-            if (task.priority === 'urgent') {
-              priorityText = t.priorities?.urgent || 'Urgent';
-            } else if (task.priority === 'high') {
-              priorityText = t.priorities?.high || 'High';
-            } else if (task.priority === 'normal') {
-              priorityText = t.priorities?.normal || 'Normal';
-            } else if (task.priority === 'low') {
-              priorityText = t.priorities?.low || 'Low';
-            }
-          }
           
           activityItem.innerHTML = `
             <div class="activity-icon" style="background: ${bgColor};">${icon}</div>
             <div class="activity-content">
               <p class="activity-text">${task.name}</p>
-              <span class="activity-time">${statusText}${priorityText ? ' • ' + priorityText : ''}</span>
+              <span class="activity-time">${task.status}${task.priority ? ' • ' + task.priority : ''}</span>
             </div>
           `;
           
@@ -3138,8 +2785,6 @@ function removeAllMenus() {
     }
 
     window.updateDashboardStats = updateDashboardStats;
-    window.renderCalendar = renderCalendar;
-    window.displayTasksForDate = displayTasksForDate;
 
     window.handleDelete = function(taskId) {
       if (confirm('Are you sure you want to delete this task?')) {
